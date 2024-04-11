@@ -5,7 +5,9 @@
     "string": "cpp",
     "ostream": "cpp",
     "stack": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "sstream": "cpp",
+    "iostream": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
