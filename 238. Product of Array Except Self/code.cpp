@@ -1,6 +1,26 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+/*
+
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& arr) {
+        int size = arr.size();
+        vector<int> res;
+        for(int i =0;i<size;i++){
+            int product = 1;
+            for(int j = 0; j<size;j++){
+                if(i == j) continue;
+                product*= arr[j];
+            }
+            res.push_back(product);
+
+        }
+        return res;
+    }
+};
+*/
 
 vector<int> solution(vector<int> arr)
 {
